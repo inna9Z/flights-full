@@ -1,0 +1,102 @@
+
+.flight-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .flight-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .flight-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flight-header h2 {
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a73e8; /* or your preferred color */
+  }
+  
+  .flight-details {
+    margin-top: 16px;
+  }
+  
+  .departure-arrival,
+  .time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+ 
+  }
+  
+  .departure-arrival p{
+    flex-basis: 48%;
+    margin: 0;
+  }
+  .time p {
+    flex-basis: 48%;
+    margin: 0;
+    color: #1a73e8;
+  }
+  
+  .duration,
+  .price {
+    margin-top: 8px;
+    color: #777;
+  }
+  
+  .duration {
+    font-style: italic;
+  }
+  
+  .search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #312486;
+    color: #6c8da5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5b5996;
+  }
+  
+  .error {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
